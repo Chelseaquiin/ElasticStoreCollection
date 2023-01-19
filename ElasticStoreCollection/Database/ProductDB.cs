@@ -1,7 +1,7 @@
 ﻿using ElasticStoreCollection.Domain;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Dynamic;
 
 namespace ElasticStoreCollection.Database
 {
@@ -13,10 +13,6 @@ namespace ElasticStoreCollection.Database
             new Product(){ID = 2, Name = "Ergonomic Chair", Quantity = 400, Price = 200, Category = "Chair", OrderCount = 4000},
             new Product(){ID = 3, Name = "Table", Quantity = 500, Price = 250, Category = "Tables", OrderCount = 3000}
         };
-       
-        
-        
-
 
     }
 }
